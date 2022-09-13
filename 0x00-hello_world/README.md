@@ -1,1 +1,1 @@
- a script that generates the assembly code
+C program that prints exactly
