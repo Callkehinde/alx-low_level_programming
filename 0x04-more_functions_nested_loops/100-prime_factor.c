@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
- * main - checks for checks for digit (0 through 9)
+ * main - checks for checks for digit (0 through 9).
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
@@ -18,7 +18,7 @@ int main(void)
 			x = x / y;
 		}
 	}
-	printf("%ld", y);
+	printf("%lu", y);
 	_putchar('\n');
 	return (0);
 }
