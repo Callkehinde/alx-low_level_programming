@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_number - checks for checks for a digit (0 through 9).
+ * print_number - checks for checks for a digit (0 through 9)
  * @n: n - Variable
- * Return: Always 0.
+ * Return: Always 0
  */
 void print_number(int n)
 {
