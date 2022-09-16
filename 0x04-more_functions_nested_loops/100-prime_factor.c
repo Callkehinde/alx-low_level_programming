@@ -19,6 +19,6 @@ int main(void)
 		}
 	}
 	printf("%lu", y);
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 }
