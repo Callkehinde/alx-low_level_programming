@@ -8,35 +8,22 @@
  */
 int main(void)
 {
-	int c, i, k, j;
+	int i, j;
 
-	for (c = 48; c <= 57; c++)
+	for (i = 0; i < 99; i++)
 	{
-		for (i = 48; i <= 57; i++)
+		for (j = i + 1; j < 100; i++)
 		{
-			for (k = 48; k <= 57; k++)
+			putchar(i / 10 + '0');
+			putchar(i % 10 + '0');
+			putchar(' ');
+			putchar(j / 10 + '0');
+			putchar(j % 10 + '0');
+			
+			if (!(i / 10 == 9 && i % 10 == 8))
 			{
-				for (j = 48; j <= 57; j++)
-				{
-					if (((k + j) > (c + i) && k >= c) || c < k)
-					{
-						putchar(c);
-						putchar(i);
-						putchar(' ');
-						putchar(k);
-						putchar(j);
-
-						if (c + i + k + j == 227 && c == 57)
-						{
-							break;
-						}
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
-					}
-				}
+				putchar(',');
+				putchar(' ');
 			}
 		}
 	}
