@@ -8,28 +8,27 @@
  */
 int main(void)
 {
-	int i, j;
-
-	for (i = 0; i <= 98; i++)
+int numLeft;
+int numLast;
+for (numLeft = 0; numLeft < 100; numLeft++)
+{
+	for (numLast = 0; numLast < 100; numLast++)
 	{
-		for (j = i + 1; j <= 99; i++)
+		if (numLeft < numLast)
 		{
-			putchar((i / 10) + '0');
-			putchar((i % 10) + '0');
-			putchar(' ');
-			putchar((j / 10) + '0');
-			putchar((j % 10) + '0');
-			
-			if (i == 98 && j == 99)
-				break;
-			
-			putchar(',');
-			putchar(' ');
+			putchar(numLeft / 10 + 48);
+			putchar(numLeft % 10 + 48);
+			putchar(32);
+			putchar(numLast / 10 + 48);
+			putchar(numLast % 10 + 48);
+			if (numLeft < 98)
+			{
+				putchar(44);
+				putchar(32);
+			}
 		}
 	}
-
-
-	putchar('\n');
-
-	return (0);
+}
+putchar('\n');
+return (0);
 }
