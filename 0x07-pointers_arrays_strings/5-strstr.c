@@ -9,7 +9,7 @@
  * If the substring is not located - NULL.
  */
 
-char *strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 	{
 		int index;
 
@@ -35,5 +35,4 @@ char *strstr(char *haystack, char *needle)
 		}
 		
 		return ('\0');
-	}
 }
