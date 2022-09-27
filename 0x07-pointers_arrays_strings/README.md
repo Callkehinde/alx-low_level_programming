@@ -1,1 +1,1 @@
-0x07-pointers_arrays_strings
+a function that locates a character in a string
