@@ -1,4 +1,4 @@
-nclude "main.h"
+#include "main.h"
 
 /**
  * sqrt_check - Checks for the square root of c
@@ -31,5 +31,5 @@ int _sqrt_recursion(int n)
 	if (n == 0)
 		return (0);
 
-	return (_sqrt_check(1, n));
+	return (sqrt_check(1, n));
 }
