@@ -12,7 +12,7 @@ void numberz(int i)
 	if (i / 100 != 0)
 	{
 		_putchar(i / 100 + '0');
-		_puctchar(((i % 100) / 10) + '0');
+		_putchar(((i % 100) / 10) + '0');
 	}
 	if ((i / 100 == 0) && (i / 10 != 0))
 	{
