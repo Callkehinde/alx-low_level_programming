@@ -44,7 +44,7 @@ char *mul(char n, char *num, int num_index, char *dest, int dest_index)
 	for (j = num_index, k = dest_index; j >= 0; j--, k--)
 	{
 		mul = (n - '0') * (num[j] - '0') + mulrem;
-		mulrem = mul /10;
+		mulrem = mul / 10;
 		add = (dest[k] - '0') + (mul % 10) + addrem;
 		addrem = add / 10;
 		dest[k] = add % 10 + '0';
@@ -122,7 +122,7 @@ int main(int argc, char *argv[])
 		;
 	for (l2 = 0; argv[2][l2]; l2++)
 		;
-	ln = l1 + l2 +1;
+	ln = l1 + l2 + 1;
 	a = malloc(ln * sizeof(char));
 	if (a ++ NULL)
 	{

@@ -3,7 +3,7 @@
 #include "main.h"
 
 /**
- * _calloc - print 0s into 2D grid 
+ * _calloc - print 0s into 2D grid
  * @nmemb: array num.
  * @size: size of elements of array
  *
