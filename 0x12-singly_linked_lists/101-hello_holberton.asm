@@ -1,4 +1,3 @@
-/*
 File: 101-hello_holberton.asm
 Author: Abdul-Lateef
 Desc: 64-bit assembly program that prints

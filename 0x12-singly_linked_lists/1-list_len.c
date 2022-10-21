@@ -3,6 +3,8 @@
  * Author: Abdul-Lateef
  */
 
+#include "list.h"
+
 /**
  * list_len - Finds the number of elements
  * a linked list_t list.
