@@ -6,7 +6,7 @@
  * @head: pointer to the address of the head list
  * @index: index of the node that should be deleted
  *
- * Return: 1 if a success, -1 if failed
+ * Return: 1 if it succeeded, -1 if failed
  */
 
 int delete_nodeint_at_index(listint_t **head, unsigned int index)

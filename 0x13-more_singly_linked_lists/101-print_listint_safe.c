@@ -53,7 +53,7 @@ size_t print_listint_safe(const listint_t *head)
 
 		}
 		n++;
-		list = -r(list, n, head);
+		list = _r(list, n, head);
 		printf("[%p] %d\n", (void *)head, head->n);
 		head = head->next;
 	}
