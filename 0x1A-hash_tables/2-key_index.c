@@ -1,4 +1,3 @@
-:%s/\s/+$//e
 #include "hash_tables.h"
 
 /**
